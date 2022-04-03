@@ -1,0 +1,12 @@
+h1 {
+    font-size: 60px;
+}
+
+h1 span {
+    color: #fb17d0;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
