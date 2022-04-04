@@ -1,9 +1,15 @@
 h1 {
     font-size: 60px;
+    font-weight: bold;
 }
 
 h1 span {
     color: #fb17d0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 p {
