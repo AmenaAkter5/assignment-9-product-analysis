@@ -10,7 +10,7 @@ This project is linked with [Netlify](https://code-man.netlify.app/).
 
 =============================================
 
-## Project-Details :
+## Project - Details :
 * This is the Product analysis project. 
 * Here I make reveiw and display the user reviews about "programming hero" app.
 * This Project is done by Reactjs which is very popular js library.
