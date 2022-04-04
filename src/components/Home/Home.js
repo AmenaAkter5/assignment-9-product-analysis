@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="w-50">
                     <h1 className="mb-4">Best android app to <br />
                         <span>learn programming</span></h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas totam optio libero vero non quos eveniet, voluptate suscipit autem et doloremque facilis a maxime adipisci facere. Dolorem labore consequatur in.</p>
+                    <p><b>"Coding just got fun"</b>  this is the slogan of programming hero team. They launched their app to make a good influence to the programming learners. Who wanted to learn programming in a very interesting method he or she can rely on this app. The learning system is interesting, creative of this app. So, this is recommended for the very beginner who wanted to learn programming with interesting learning method.</p>
                     <button className="btn">Live Demo</button>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ const Home = () => {
                         ></Users>)
                     }
                 </div>
-                <div className="d-flex justify-content-center mt-5">
+                <div className="d-flex justify-content-center mt-4">
                     <button className="btn" onClick={seeAllReviews}>See All Reviews</button>
                 </div>
             </div>

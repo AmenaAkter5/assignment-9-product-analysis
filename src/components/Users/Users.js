@@ -11,7 +11,7 @@ const Users = ({ user }) => {
                 <img src={img} alt="" />
             </div>
             <h5 className="text-center fw-bold ratings">{ratings}</h5>
-            <h3 className="text-center fw-bold mb-3">{name}</h3>
+            <h4 className="text-center mb-3">{name}</h4>
             <p>{review}</p>
         </div>
     );
