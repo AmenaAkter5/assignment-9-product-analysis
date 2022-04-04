@@ -22,27 +22,3 @@
 .header a:hover {
     color: orange;
 }
-
-
-/* Media Query */
-
-@media screen and (max-width: 768px) {
-    .header {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header a {
-        display: none;
-    }
-}
-
-/* @media screen and (min-width: 481px) and (max-width: 768px) {
-    .header a {
-        display: none;
-    }
-    .header {
-        display: flex;
-        justify-content: center;
-    }
-} */
