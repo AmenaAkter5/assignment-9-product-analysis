@@ -1,3 +1,7 @@
+.blog-title {
+    color: #fb17d0;
+}
+
 .blog-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
