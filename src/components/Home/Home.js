@@ -1,20 +1,13 @@
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import useUsers from '../../hooks/useUsers';
 import logo from '../../images/logo.PNG';
+import Users from '../Users/Users';
 import './Home.css';
 
 const Home = () => {
 
-    // data load state
-    const [products, setProducts] = useState([]);
-    console.log(products);
-
-    // products data fetch
-    useEffect(() => {
-        fetch('products.json')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+    // useUsers hook : users data state
+    const [users] = useUsers();
 
     // see all reviews button navigation
     const navigate = useNavigate();
@@ -31,15 +24,25 @@ const Home = () => {
                     <h1 className="mb-4">Best android app to <br />
                         <span>learn programming</span></h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas totam optio libero vero non quos eveniet, voluptate suscipit autem et doloremque facilis a maxime adipisci facere. Dolorem labore consequatur in.</p>
-                    <button>Live Demo</button>
+                    <button className="btn">Live Demo</button>
                 </div>
                 <div>
                     <img className="rounded rounded-5" src={logo} alt="" />
                 </div>
             </div>
             <div className="my-5">
-                <h2 className="text-center">User Reviews</h2>
-                <button onClick={seeAllReviews}>See All Reviews</button>
+                <h2 className="text-center mb-4">User Reviews</h2>
+                <div className="user-reviews-container">
+                    {
+                        users.slice(0, 3).map(user => <Users
+                            key={user.id}
+                            user={user}
+                        ></Users>)
+                    }
+                </div>
+                <div className="d-flex justify-content-center mt-5">
+                    <button className="btn" onClick={seeAllReviews}>See All Reviews</button>
+                </div>
             </div>
         </section>
     );

@@ -16,3 +16,16 @@ p {
     text-align: justify;
     font-size: 18px;
 }
+
+.btn {
+    border: none;
+    background-color: #fb17d0;
+    color: white;
+    font-weight: bold;
+}
+
+.user-reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}

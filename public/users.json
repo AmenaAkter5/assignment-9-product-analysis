@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Abrar Fahad",
+    "ratings": "5 stars",
+    "img": "https://randomuser.me/api/portraits/men/65.jpg",
+    "review": "Wonderful way to learn the fundamentals. The terminal could use a fix - twice now the program was left running(in background) and the file I had open was just completely blanked when I went back. Lost a few hours of work to this."
+  },
+  {
+    "id": 2,
+    "name": "Dipto Ehsan",
+    "ratings": "5 stars",
+    "img": "https://randomuser.me/api/portraits/men/77.jpg",
+    "review": "You can complete courses; quizzes, challenge other 'players', write and publish your own code, get help by asking questions and so much more. I'll say it straightforward: this is the BEST app to learn computer languages."
+  },
+  {
+    "id": 3,
+    "name": "Jennifer Lewis",
+    "ratings": "5 stars",
+    "img": "https://randomuser.me/api/portraits/women/52.jpg",
+    "review": "Great app for learning. It's written for children, but I think it's great for adults too. The premium cost is reasonable. I appreciate the support and forums available within the app."
+  },
+  {
+    "id": 4,
+    "name": "Ansh Sharma",
+    "ratings": "4.5 stars",
+    "img": "https://randomuser.me/api/portraits/men/26.jpg",
+    "review": "The best thing about the application is that Grandma offers courses which are free to learn for all users. The courses are interactive and are based and taught upon real life problems."
+  },
+  {
+    "id": 5,
+    "name": "Catrina",
+    "ratings": "5 stars",
+    "img": "https://randomuser.me/api/portraits/women/81.jpg",
+    "review": "Good job programming hero team.. Good and interactive platform to learn. My suggestions is to expand the learning courses by adding DBMS, Java etc.. Thanks a lot. Keep rocking!!"
+  },
+  {
+    "id": 6,
+    "name": "Chris Mohr",
+    "ratings": "4.5 stars",
+    "img": "https://randomuser.me/api/portraits/men/43.jpg",
+    "review": "Personally think this is a great start, but I wouldn't recommend them other then their discount currently for a lifetime pro account."
+  }
+]
