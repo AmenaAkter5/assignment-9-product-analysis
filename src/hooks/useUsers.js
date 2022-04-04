@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useUsers = () => {
 
-    // data load state
+    // users data load state
     const [users, setUsers] = useState([]);
 
     // users data fetch
